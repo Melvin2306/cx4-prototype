@@ -5,10 +5,11 @@ import { ColumnDef } from "@tanstack/react-table";
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 
-import { labels, priorities, statuses } from "@/app/tasks/data/data";
+import { editors, labels, priorities, statuses } from "@/app/tasks/data/data";
 import { Task } from "@/app/tasks/data/schema";
-import { DataTableRowActions } from "./data-table-row-actions";
+import { Percent } from "lucide-react";
 import { DataTableColumnHeader } from "./data-table-column-header";
+import { DataTableRowActions } from "./data-table-row-actions";
 
 export const columns: ColumnDef<Task>[] = [
   {
@@ -38,7 +39,7 @@ export const columns: ColumnDef<Task>[] = [
   {
     accessorKey: "id",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Task" />
+      <DataTableColumnHeader column={column} title="Id" />
     ),
     cell: ({ row }) => <div className="w-[80px]">{row.getValue("id")}</div>,
     enableSorting: false,
@@ -69,7 +70,7 @@ export const columns: ColumnDef<Task>[] = [
     ),
     cell: ({ row }) => {
       const status = statuses.find(
-        (status) => status.value === row.getValue("status")
+        (status) => status.value === row.getValue("status"),
       );
 
       if (!status) {
@@ -90,25 +91,75 @@ export const columns: ColumnDef<Task>[] = [
     },
   },
   {
-    accessorKey: "priority",
+    accessorKey: "urgency",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Priority" />
+      <DataTableColumnHeader column={column} title="Urgency" />
     ),
     cell: ({ row }) => {
-      const priority = priorities.find(
-        (priority) => priority.value === row.getValue("priority")
+      const urgency = priorities.find(
+        (urgency) => urgency.value === row.getValue("urgency"),
       );
 
-      if (!priority) {
+      if (!urgency) {
         return null;
       }
 
       return (
         <div className="flex items-center">
-          {priority.icon && (
-            <priority.icon className="mr-2 h-4 w-4 text-muted-foreground" />
+          {urgency.icon && (
+            <urgency.icon className="mr-2 h-4 w-4 text-muted-foreground" />
           )}
-          <span>{priority.label}</span>
+          <span>{urgency.label}</span>
+        </div>
+      );
+    },
+    filterFn: (row, id, value) => {
+      return value.includes(row.getValue(id));
+    },
+  },
+  {
+    accessorKey: "editor",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Editor" />
+    ),
+    cell: ({ row }) => {
+      const editor = editors.find(
+        (editor) => editor.value === row.getValue("editor"),
+      );
+
+      if (!editor) {
+        return null;
+      }
+
+      return (
+        <div className="flex items-center">
+          {editor.icon && (
+            <editor.icon className="mr-2 h-4 w-4 text-muted-foreground" />
+          )}
+          <span>{editor.label}</span>
+        </div>
+      );
+    },
+    filterFn: (row, id, value) => {
+      return value.includes(row.getValue(id));
+    },
+  },
+  {
+    accessorKey: "confidence",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Confidence" />
+    ),
+    cell: ({ row }) => {
+      const confidence = row.getValue("confidence");
+
+      if (!confidence) {
+        return null;
+      }
+
+      return (
+        <div className="flex items-center">
+          <span>{confidence as string} </span>
+          <Percent className="ml-2 h-4 w-4 text-muted-foreground" />
         </div>
       );
     },
