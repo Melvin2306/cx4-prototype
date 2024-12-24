@@ -20,7 +20,6 @@ import {
 import { taskSchema } from "@/app/tasks/data/schema";
 import { labels } from "@/app/tasks/data/data";
 
-
 interface DataTableRowActionsProps<TData> {
   row: Row<TData>;
 }

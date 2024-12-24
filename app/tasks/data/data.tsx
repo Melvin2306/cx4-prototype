@@ -3,37 +3,35 @@ import {
   ArrowRight,
   ArrowUp,
   CheckCircle,
-  Circle,
   CircleOff,
+  FileText,
   HelpCircle,
+  PlugZap,
+  ReceiptText,
   Timer,
+  Users,
 } from "lucide-react";
 
 export const labels = [
   {
-    value: "bug",
-    label: "Bug",
+    value: "e-charging",
+    label: "E-Charging",
   },
   {
-    value: "feature",
-    label: "Feature",
+    value: "billing",
+    label: "Billing",
   },
   {
-    value: "documentation",
-    label: "Documentation",
+    value: "documents",
+    label: "Documents",
   },
 ];
 
 export const statuses = [
   {
-    value: "backlog",
-    label: "Backlog",
+    value: "open",
+    label: "Open",
     icon: HelpCircle,
-  },
-  {
-    value: "todo",
-    label: "Todo",
-    icon: Circle,
   },
   {
     value: "in progress",
@@ -67,5 +65,28 @@ export const priorities = [
     label: "High",
     value: "high",
     icon: ArrowUp,
+  },
+];
+
+export const editors = [
+  {
+    label: "CRH",
+    value: "crh",
+    icon: Users,
+  },
+  {
+    label: "Billings",
+    value: "billings",
+    icon: ReceiptText,
+  },
+  {
+    label: "Documents",
+    value: "documents",
+    icon: FileText,
+  },
+  {
+    label: "E-Charging",
+    value: "e-charging",
+    icon: PlugZap,
   },
 ];
