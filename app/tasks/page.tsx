@@ -1,16 +1,11 @@
+import { columns } from "@/components/columns";
+import { DataTable } from "@/components/data-table";
+import { UserNav } from "@/components/tasks-user-nav";
 import { promises as fs } from "fs";
-import path from "path";
 import { Metadata } from "next";
-import Image from "next/image";
+import path from "path";
 import { z } from "zod";
 import { taskSchema } from "./data/schema";
-import { UserNav } from "@/components/tasks-user-nav";
-import { DataTable } from "@/components/data-table";
-import { columns } from "@/components/columns";
-import { MainNav } from "@/components/main-nav";
-import { Search } from "@/components/search";
-import TeamSwitcher from "@/components/team-switcher";
-import { UserNav as MainUserNav } from "@/components/user-nav";
 
 export const metadata: Metadata = {
   title: "Tasks",
@@ -33,34 +28,6 @@ export default async function TaskPage() {
 
   return (
     <>
-      <div className="md:hidden">
-        <Image
-          src="/examples/tasks-light.png"
-          width={1280}
-          height={998}
-          alt="Playground"
-          className="block dark:hidden"
-        />
-        <Image
-          src="/examples/tasks-dark.png"
-          width={1280}
-          height={998}
-          alt="Playground"
-          className="hidden dark:block"
-        />
-      </div>
-      <div className="hidden flex-col md:flex">
-        <div className="border-b">
-          <div className="flex h-16 items-center px-4">
-            <TeamSwitcher />
-            <MainNav className="mx-6" />
-            <div className="ml-auto flex items-center space-x-4">
-              <Search />
-              <MainUserNav />
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
         <div className="flex items-center justify-between space-y-2">
           <div>
