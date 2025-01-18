@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-import Icon from "@/components/Icon";
+import { AppSidebar } from "@/components/app-sidebar";
 import { MainNav } from "@/components/main-nav";
 import { Search } from "@/components/search";
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
-import { UserNav } from "@/components/user-nav";
-import { LucideBell } from "lucide-react";
+import { ModeToggle } from "@/components/ui/mode-toggle";
+import { SidebarProvider } from "@/components/ui/sidebar";
+import { LucideBell, LucideUserRound } from "lucide-react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -46,25 +46,27 @@ export default function RootLayout({
         >
           <div className="hidden flex-col md:flex">
             <div className="border-b">
-              <div className="flex h-16 items-center px-4">
-                <Icon className="" width={45} height={55} />
-                <Separator orientation="vertical" className="mr-2" />
-                <div className="mr-3">
-                  <h1 className="font-bold text-lg">SoliD</h1>
-                  <h1 className="text-xs">Solution with </h1>
-                  <h1 className="text-xs">Integrated Diagnostics</h1>
-                </div>
+              <div className="flex h-16 items-center justify-between px-4">
+                <div className="mx-2" />
                 <Search />
-                <MainNav className="mx-6" />
-                <div className="ml-auto flex items-center space-x-4">
-                  <Button variant="ghost" size="icon">
-                    <LucideBell className="h-6 w-6" />
-                  </Button>
-                  <UserNav />
+                <div className="align-end flex flex-row">
+                  <MainNav className="mx-6" />
+                  <div className="ml-auto flex items-center space-x-4">
+                    <ModeToggle />
+                    <Button variant="ghost" size="icon">
+                      <LucideBell className="h-6 w-6" />
+                    </Button>
+                    <Button variant="ghost" size="icon">
+                      <LucideUserRound className="w-6 h-6 bg-background" />
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>
-            {children}
+            <SidebarProvider>
+              <AppSidebar />
+              <main>{children}</main>
+            </SidebarProvider>
           </div>
         </ThemeProvider>
       </body>

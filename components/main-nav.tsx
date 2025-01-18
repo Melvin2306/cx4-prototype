@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 import { DropdownMenuCheckboxItemProps } from "@radix-ui/react-dropdown-menu";
@@ -13,8 +12,8 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import React from "react";
 import { ArrowDownIcon } from "lucide-react";
+import React from "react";
 
 type Checked = DropdownMenuCheckboxItemProps["checked"];
 
@@ -39,53 +38,29 @@ export function MainNav({
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56">
-          <DropdownMenuLabel>Appearance</DropdownMenuLabel>
+          <DropdownMenuLabel>Saved Searches</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuCheckboxItem
             checked={showStatusBar}
             onCheckedChange={setShowStatusBar}
           >
-            Status Bar
+            My Tickets
           </DropdownMenuCheckboxItem>
           <DropdownMenuCheckboxItem
             checked={showActivityBar}
             onCheckedChange={setShowActivityBar}
             disabled
           >
-            Activity Bar
+            My Teams Tickets
           </DropdownMenuCheckboxItem>
           <DropdownMenuCheckboxItem
             checked={showPanel}
             onCheckedChange={setShowPanel}
           >
-            Panel
+            All Open Tickets
           </DropdownMenuCheckboxItem>
         </DropdownMenuContent>
       </DropdownMenu>
-      <Link
-        href="/"
-        className="text-sm font-medium transition-colors hover:text-primary"
-      >
-        Overview
-      </Link>
-      <Link
-        href="/email"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-      >
-        Email
-      </Link>
-      <Link
-        href="/tasks"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-      >
-        Tasks
-      </Link>
-      <Link
-        href="/"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-      >
-        Settings
-      </Link>
     </nav>
   );
 }
