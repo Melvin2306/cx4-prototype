@@ -47,7 +47,7 @@ export function DataTableToolbar<TData>({
         {table.getColumn("editor") && (
           <DataTableFacetedFilter
             column={table.getColumn("editor")}
-            title="Editor"
+            title="Team"
             options={editors}
           />
         )}

@@ -4,9 +4,15 @@ import { ColumnDef } from "@tanstack/react-table";
 
 import { Badge } from "@/components/ui/badge";
 
-import { editors, labels, priorities, statuses } from "@/app/tasks/data/data";
+import {
+  assignees,
+  editors,
+  labels,
+  priorities,
+  statuses,
+} from "@/app/tasks/data/data";
 import { Task } from "@/app/tasks/data/schema";
-import { Percent } from "lucide-react";
+import { LucideUserRound, Percent } from "lucide-react";
 import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
 
@@ -108,7 +114,7 @@ export const columns: ColumnDef<Task>[] = [
   {
     accessorKey: "editor",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Editor" />
+      <DataTableColumnHeader column={column} title="Team" />
     ),
     cell: ({ row }) => {
       const editor = editors.find(
@@ -125,6 +131,31 @@ export const columns: ColumnDef<Task>[] = [
             <editor.icon className="mr-2 h-4 w-4 text-muted-foreground" />
           )}
           <span>{editor.label}</span>
+        </div>
+      );
+    },
+    filterFn: (row, id, value) => {
+      return value.includes(row.getValue(id));
+    },
+  },
+  {
+    accessorKey: "assignee",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Assigned to" />
+    ),
+    cell: ({ row }) => {
+      const assignee = assignees.find(
+        (assignee) => assignee.value === row.getValue("assignee"),
+      );
+
+      if (!assignee) {
+        return null;
+      }
+
+      return (
+        <div className="flex flex-row items-center text-sm">
+          <LucideUserRound className="mr-2 h-5 w-5 text-muted-foreground" />
+          <p className="text-sm">{assignee.label}</p>
         </div>
       );
     },

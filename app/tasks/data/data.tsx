@@ -90,3 +90,14 @@ export const editors = [
     icon: PlugZap,
   },
 ];
+
+export const assignees = [
+  {
+    label: "Max Mustermann",
+    value: "max_mustermann",
+  },
+  {
+    label: "Alex Mustermann",
+    value: "alex_mustermann",
+  },
+];
