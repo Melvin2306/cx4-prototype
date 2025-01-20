@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/mode-toggle";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { LucideBell, LucideUserRound } from "lucide-react";
+import { SearchSheet } from "@/components/SearchSheet";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -52,6 +53,7 @@ export default function RootLayout({
                 <div className="align-end flex flex-row">
                   <MainNav className="mx-6" />
                   <div className="ml-auto flex items-center space-x-4">
+                    <SearchSheet />
                     <ModeToggle />
                     <Button variant="ghost" size="icon">
                       <LucideBell className="h-6 w-6" />

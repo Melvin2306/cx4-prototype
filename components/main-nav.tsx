@@ -49,7 +49,6 @@ export function MainNav({
           <DropdownMenuCheckboxItem
             checked={showActivityBar}
             onCheckedChange={setShowActivityBar}
-            disabled
           >
             My Teams Tickets
           </DropdownMenuCheckboxItem>
