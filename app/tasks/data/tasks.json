@@ -1,7 +1,7 @@
 [
   {
     "id": "8782",
-    "title": "Concern about unexpected noise in new electric sedan",
+    "title": "What is this noise?!",
     "summary": "AI Summary: Customer hears a buzzing sound and requests diagnostic advice.",
     "status": "in progress",
     "label": "hardware",
@@ -13,7 +13,7 @@
   },
   {
     "id": "7878",
-    "title": "Request for status update on delayed SUV delivery",
+    "title": "It's been months...",
     "summary": "AI Summary: Buyer wonders when their vehicle will arrive and possible reasons for delay.",
     "status": "open",
     "label": "hardware",
@@ -25,26 +25,26 @@
   },
   {
     "id": "7839",
-    "title": "Issue with neural TCP card in the new model",
+    "title": "Auto lädt nicht mehr",
     "summary": "AI Summary: Customer reports a problem with the neural TCP card and seeks assistance.",
     "status": "open",
     "label": "e-charging",
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
-    "language": "en",
+    "language": "de",
     "confidence": 96
   },
   {
     "id": "5562",
-    "title": "SAS interface down, need to back up PNG bandwidth",
-    "summary": "AI Summary: Customer mentions the SAS interface is down and needs help with backing up the PNG bandwidth.",
+    "title": "Probleme mit der Mehrwertsteuer",
+    "summary": "AI Summary: Customer mentions that they have problems with the VAT in the billing process.",
     "status": "open",
     "label": "billing",
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
-    "language": "en",
+    "language": "de",
     "confidence": 97
   },
   {
