@@ -8,6 +8,7 @@ import {
   assignees,
   editors,
   labels,
+  languages,
   priorities,
   statuses,
 } from "@/app/tasks/data/data";
@@ -161,6 +162,27 @@ export const columns: ColumnDef<Task>[] = [
     },
     filterFn: (row, id, value) => {
       return value.includes(row.getValue(id));
+    },
+  },
+  {
+    accessorKey: "language",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Language" />
+    ),
+    cell: ({ row }) => {
+      const language = languages.find(
+        (language) => language.value === row.getValue("language"),
+      );
+
+      if (!language) {
+        return null;
+      }
+
+      return (
+        <div className="flex items-center">
+          <span>{language.label}</span>
+        </div>
+      );
     },
   },
   {

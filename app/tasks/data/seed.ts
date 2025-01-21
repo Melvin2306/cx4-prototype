@@ -2,7 +2,14 @@ import { faker } from "@faker-js/faker";
 import fs from "fs";
 import path from "path";
 
-import { labels, priorities, statuses, editors, assignees } from "./data";
+import {
+  labels,
+  priorities,
+  statuses,
+  editors,
+  assignees,
+  languages,
+} from "./data";
 
 const tasks = Array.from({ length: 100 }, () => ({
   id: `Email-${faker.number.int({ min: 1000, max: 9999 })}`,
@@ -12,6 +19,7 @@ const tasks = Array.from({ length: 100 }, () => ({
   urgency: faker.helpers.arrayElement(priorities).value,
   editor: faker.helpers.arrayElement(editors).value,
   assignee: faker.helpers.arrayElement(assignees).value,
+  languages: faker.helpers.arrayElement(languages).value,
   confidence: faker.number.int({ min: 1, max: 100 }),
 }));
 

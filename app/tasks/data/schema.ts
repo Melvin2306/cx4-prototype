@@ -10,6 +10,7 @@ export const taskSchema = z.object({
   urgency: z.string(),
   editor: z.string(),
   assignee: z.string(),
+  language: z.string(),
   confidence: z.number(),
 });
 

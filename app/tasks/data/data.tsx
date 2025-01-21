@@ -101,3 +101,26 @@ export const assignees = [
     value: "alex_mustermann",
   },
 ];
+
+export const languages = [
+  {
+    label: "English",
+    value: "en",
+  },
+  {
+    label: "German",
+    value: "de",
+  },
+  {
+    label: "French",
+    value: "fr",
+  },
+  {
+    label: "Spanish",
+    value: "es",
+  },
+  {
+    label: "Italian",
+    value: "it",
+  },
+];

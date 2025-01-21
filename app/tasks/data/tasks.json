@@ -7,6 +7,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "alex_mustermann",
+    "language": "en",
     "confidence": 98
   },
   {
@@ -17,6 +18,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "alex_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -27,6 +29,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 96
   },
   {
@@ -37,6 +40,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 97
   },
   {
@@ -47,6 +51,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "alex_mustermann",
+    "language": "en",
     "confidence": 92
   },
   {
@@ -57,6 +62,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 91
   },
   {
@@ -67,6 +73,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "alex_mustermann",
+    "language": "en",
     "confidence": 98
   },
   {
@@ -77,6 +84,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "alex_mustermann",
+    "language": "en",
     "confidence": 97
   },
   {
@@ -87,6 +95,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 93
   },
   {
@@ -97,6 +106,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -107,6 +117,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 95
   },
   {
@@ -117,6 +128,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -127,6 +139,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -137,6 +150,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -147,6 +161,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -157,6 +172,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -167,6 +183,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -177,6 +194,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -187,6 +205,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -197,6 +216,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -207,6 +227,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -217,6 +238,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -227,6 +249,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -237,6 +260,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -247,6 +271,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -257,6 +282,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -267,6 +293,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -277,6 +304,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -287,6 +315,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -297,6 +326,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -307,6 +337,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -317,6 +348,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -327,6 +359,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -337,6 +370,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -347,6 +381,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -357,6 +392,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -367,6 +403,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -377,6 +414,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -387,6 +425,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -397,6 +436,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -407,6 +447,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -417,6 +458,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -427,6 +469,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -437,6 +480,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -447,6 +491,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -457,6 +502,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -467,6 +513,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -477,6 +524,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -487,6 +535,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -497,6 +546,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -507,6 +557,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -517,6 +568,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -527,6 +579,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -537,6 +590,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -547,6 +601,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -557,6 +612,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -567,6 +623,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -577,6 +634,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -587,6 +645,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -597,6 +656,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -607,6 +667,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -617,6 +678,7 @@
     "urgency": "high",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -627,6 +689,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -637,6 +700,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -647,6 +711,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -657,6 +722,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -667,6 +733,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -677,6 +744,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -687,6 +755,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -697,6 +766,7 @@
     "urgency": "medium",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -707,6 +777,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -717,6 +788,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -727,6 +799,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -737,6 +810,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -747,6 +821,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -757,6 +832,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -767,6 +843,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -777,6 +854,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -787,6 +865,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -797,6 +876,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -807,6 +887,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -817,6 +898,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -827,6 +909,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -837,6 +920,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -847,6 +931,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -857,6 +942,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -867,6 +953,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -877,6 +964,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -887,6 +975,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -897,6 +986,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -907,6 +997,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -917,6 +1008,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -927,6 +1019,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -937,6 +1030,7 @@
     "urgency": "low",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -947,6 +1041,7 @@
     "urgency": "medium",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -957,6 +1052,7 @@
     "urgency": "low",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -967,6 +1063,7 @@
     "urgency": "high",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -977,6 +1074,7 @@
     "urgency": "medium",
     "editor": "crh",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -987,6 +1085,7 @@
     "urgency": "high",
     "editor": "billings",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   },
   {
@@ -997,6 +1096,7 @@
     "urgency": "low",
     "editor": "e-charging",
     "assignee": "max_mustermann",
+    "language": "en",
     "confidence": 99
   }
 ]
