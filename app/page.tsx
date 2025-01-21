@@ -23,7 +23,7 @@ export default async function TaskPage() {
     <>
       <div className="hidden h-full flex-1 flex-col space-y-2 pt-3 pl-3 md:flex">
         <div className="flex items-center justify-between space-y-2">
-          <div>
+          <div className="gap-3 my-2">
             <h2 className="text-2xl font-bold tracking-tight">
               Welcome back, Alex!
             </h2>
