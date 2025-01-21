@@ -14,6 +14,7 @@ import {
 const tasks = Array.from({ length: 100 }, () => ({
   id: `Email-${faker.number.int({ min: 1000, max: 9999 })}`,
   title: faker.hacker.phrase().replace(/^./, (letter) => letter.toUpperCase()),
+  summary: faker.lorem.paragraph(),
   status: faker.helpers.arrayElement(statuses).value,
   label: faker.helpers.arrayElement(labels).value,
   urgency: faker.helpers.arrayElement(priorities).value,
