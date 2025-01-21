@@ -14,16 +14,24 @@ import {
 
 export const labels = [
   {
-    value: "e-charging",
-    label: "E-Charging",
-  },
-  {
     value: "billing",
     label: "Billing",
   },
   {
-    value: "documents",
-    label: "Documents",
+    value: "e-charging",
+    label: "E-Charging",
+  },
+  {
+    value: "shipping",
+    label: "Shipping",
+  },
+  {
+    value: "hardware",
+    label: "Hardware",
+  },
+  {
+    value: "software",
+    label: "Software",
   },
 ];
 
@@ -80,8 +88,8 @@ export const editors = [
     icon: ReceiptText,
   },
   {
-    label: "Documents",
-    value: "documents",
+    label: "Software",
+    value: "software",
     icon: FileText,
   },
   {

@@ -42,7 +42,7 @@ export const columns: ColumnDef<Task>[] = [
               // @ts-expect-error - `variant` is not a valid prop
               variant={
                 {
-                  eCharging: "outline",
+                  software: "outline",
                   billing: "destructive",
                   documents: "secondary",
                 }[label.value] ?? "default"
@@ -65,7 +65,7 @@ export const columns: ColumnDef<Task>[] = [
     ),
     cell: ({ row }) => {
       const status = statuses.find(
-        (status) => status.value === row.getValue("status"),
+        (status) => status.value === row.getValue("status")
       );
 
       if (!status) {
@@ -92,7 +92,7 @@ export const columns: ColumnDef<Task>[] = [
     ),
     cell: ({ row }) => {
       const urgency = priorities.find(
-        (urgency) => urgency.value === row.getValue("urgency"),
+        (urgency) => urgency.value === row.getValue("urgency")
       );
 
       if (!urgency) {
@@ -119,7 +119,7 @@ export const columns: ColumnDef<Task>[] = [
     ),
     cell: ({ row }) => {
       const editor = editors.find(
-        (editor) => editor.value === row.getValue("editor"),
+        (editor) => editor.value === row.getValue("editor")
       );
 
       if (!editor) {
@@ -146,7 +146,7 @@ export const columns: ColumnDef<Task>[] = [
     ),
     cell: ({ row }) => {
       const assignee = assignees.find(
-        (assignee) => assignee.value === row.getValue("assignee"),
+        (assignee) => assignee.value === row.getValue("assignee")
       );
 
       if (!assignee) {
@@ -171,7 +171,7 @@ export const columns: ColumnDef<Task>[] = [
     ),
     cell: ({ row }) => {
       const language = languages.find(
-        (language) => language.value === row.getValue("language"),
+        (language) => language.value === row.getValue("language")
       );
 
       if (!language) {
